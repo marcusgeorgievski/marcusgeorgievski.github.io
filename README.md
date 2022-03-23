@@ -1,3 +1,3 @@
 # marcusgeorgievski.github.io
-Personal site, not active
+site
 https://marcusgeorgievski.github.io/
