@@ -1,56 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Hello</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
 </head>
 <body>
 
-	<header>
-		<div class="logo">
-			<h1>Marcus Georgievski</h1>
+	<nav class="nav">
+		<div class="nav-logo">
+			<p id="logo">Marcus Georgievski</p>
 		</div>
-		<nav class="navvy">
-			<ul>
-				<li><a href="/index"><button class="nav-button" id="home-button">Home</button></a></li>
-				<li><a href="/repos"><button class="nav-button" id="repos-button">Repos</button></a></li>
-			</ul>
-		</nav>
-	</header>
-
-	<hr>
-
-	<div class="container">
-
-		<h1 id="main-name">Marcus Georgievski</h1>
-
-		<hr>
-
-		<div class="uni">
-			<h3>Queen's University</h3>
-			<ul>
-				<li><h4><i>Bachelor of Computing (Honours), Computer Science</i></h4></li>
-				<li><h4><i>Minor in Statistics</i></h4></li>
-				<ul><li>Focus in Data Analytics</li></ul>
+		<div class="nav-items">
+			<ul class="nav-list">
+				<li class="nav-option"><a href="/home" class="nav-link">Home</a></li>
+				<li class="nav-option"><a href="/stuff" class="nav-link">Stuff</a></li>
+				<li class="nav-option"><a href="/about" class="nav-link">About</a></li>
+				<li class="nav-option"><a href="/contact" class="nav-link">Contact</a></li>
 			</ul>
 		</div>
+	</nav>
 
-		<hr>
-
-		<div>
-			<h2>Personal Work:</h2>
-
-			<h3>Data Science</h3>
-			<ul>
-				<li>Machine Learning</li>
-				<li>Data Vizualization</li>
-				<li>Web Scraping</li>
-			</ul>
+	<main class="main">
+		<div class="intro">
+			<div class="intro-item" id="intro-item-1">
+				<p id="intro-text">
+This is
+a website...</p>
+				<div id="selection-1"><button id="button-1">Click</button></div>
+			</div>
+			<div class="intro-item">
+				<img id="cursor" src="cursor.png" alt="">
+			</div>
 		</div>
 
-		<hr>
+		<div id="main-1">
+			<div class="main-2" id="main-21">
+				<p id="main-text">
+Some stuff
+													</p>
+			</div>
+			<div class="main-2 box" id="main-22">
+				hello
 
-		<p>nothing else to see yet</p>
-	</div>
+			</div>
+			<div class="main-2 box" id="main-23">
+			</div>
+		</div>
+	</main>
 
+	<footer class="footer">
+
+	</footer>
+	
 </body>
 </html>
